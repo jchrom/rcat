@@ -1,0 +1,14 @@
+Package: rcat
+Title: Useful stuff when working with Moodle & Co.
+Version: 0.0.0.9000
+Authors@R: person("Jakub", "Chromec", email = "jakub@catalyst-eu.net", role = c("aut", "cre"))
+Description: Collection of useful functions.
+Depends: R (>= 3.4.1)
+Imports:
+    XML (>= 3.9),
+    openxlsx (>= 4.0),
+    dplyr (>= 0.7)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
