@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz type="truefalse">
+  <name>
+    <text>Trueflop A</text>
+  </name>
+  <questiontext format="html">
+    <text>&lt;p&gt;True or flop?&lt;/p&gt;</text>
+  </questiontext>
+  <generalfeedback format="html">
+    <text/>
+  </generalfeedback>
+  <defaultgrade>1.0000000</defaultgrade>
+  <penalty>1.0000000</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="moodle_auto_format">
+    <text>true</text>
+    <feedback format="html">
+      <text/>
+    </feedback>
+  </answer>
+  <answer fraction="0" format="moodle_auto_format">
+    <text>false</text>
+    <feedback format="html">
+      <text/>
+    </feedback>
+  </answer>
+</quiz>

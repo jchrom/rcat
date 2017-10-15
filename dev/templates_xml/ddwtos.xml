@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="ddwtos">
+    <name>
+      <text>Flopndrop text A</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;Drop me [[1]], drop me [[2]], drop me floppin' [[3]]!&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>&lt;p&gt;Your answer is correct.&lt;/p&gt;</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>&lt;p&gt;Your answer is partially correct.&lt;/p&gt;</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>&lt;p&gt;Your answer is incorrect.&lt;/p&gt;</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>here</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>there</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>everywhere</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+</quiz>

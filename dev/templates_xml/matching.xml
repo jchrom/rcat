@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="matching">
+    <name>
+      <text>Matching B</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;Matchflop!&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>&lt;p&gt;Your answer is correct.&lt;/p&gt;</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>&lt;p&gt;Your answer is partially correct.&lt;/p&gt;</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>&lt;p&gt;Your answer is incorrect.&lt;/p&gt;</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text>&lt;p&gt;Flopsta&lt;/p&gt;</text>
+      <answer>
+        <text>Flopper</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Floppy&lt;/p&gt;</text>
+      <answer>
+        <text>Floppier</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>&lt;p&gt;Floppingdale&lt;/p&gt;</text>
+      <answer>
+        <text>Floppingdeen</text>
+      </answer>
+    </subquestion>
+  </question>
+</quiz>

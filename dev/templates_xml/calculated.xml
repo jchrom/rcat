@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="calculated">
+    <name>
+      <text>Calculated A</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;Calculate me this!&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback>
+      <text/>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text/>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text/>
+    </incorrectfeedback>
+    <answer fraction="100">
+      <text>{base} * {height}</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html">
+        <text/>
+      </feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>base</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>9</text>
+        </minimum>
+        <maximum>
+          <text>10</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>2</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>9</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>2</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status>
+          <text>private</text>
+        </status>
+        <name>
+          <text>height</text>
+        </name>
+        <type>calculated</type>
+        <distribution>
+          <text>uniform</text>
+        </distribution>
+        <minimum>
+          <text>9</text>
+        </minimum>
+        <maximum>
+          <text>10</text>
+        </maximum>
+        <decimals>
+          <text>0</text>
+        </decimals>
+        <itemcount>2</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number>
+            <value>9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number>
+            <value>10</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>2</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+</quiz>

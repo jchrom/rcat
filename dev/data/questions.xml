@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>Quiz items</text>
+    </category>
+  </question>
+
+<!-- question: 4  -->
+  <question type="calculated">
+    <name>
+      <text>Calculated A</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Calculate me this!</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+<answer fraction="100">
+    <text>{base} * {height}</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+<dataset_definitions>
+<dataset_definition>
+    <status><text>private</text>
+</status>
+    <name><text>base</text>
+</name>
+    <type>calculated</type>
+    <distribution><text>uniform</text>
+</distribution>
+    <minimum><text>9</text>
+</minimum>
+    <maximum><text>10</text>
+</maximum>
+    <decimals><text>0</text>
+</decimals>
+    <itemcount>2</itemcount>
+    <dataset_items>
+        <dataset_item>
+           <number>1</number>
+           <value>9</value>
+        </dataset_item>
+        <dataset_item>
+           <number>2</number>
+           <value>9</value>
+        </dataset_item>
+    </dataset_items>
+    <number_of_items>2</number_of_items>
+</dataset_definition>
+<dataset_definition>
+    <status><text>private</text>
+</status>
+    <name><text>height</text>
+</name>
+    <type>calculated</type>
+    <distribution><text>uniform</text>
+</distribution>
+    <minimum><text>9</text>
+</minimum>
+    <maximum><text>10</text>
+</maximum>
+    <decimals><text>0</text>
+</decimals>
+    <itemcount>2</itemcount>
+    <dataset_items>
+        <dataset_item>
+           <number>1</number>
+           <value>9</value>
+        </dataset_item>
+        <dataset_item>
+           <number>2</number>
+           <value>10</value>
+        </dataset_item>
+    </dataset_items>
+    <number_of_items>2</number_of_items>
+</dataset_definition>
+</dataset_definitions>
+  </question>
+
+<!-- question: 7  -->
+  <question type="ddwtos">
+    <name>
+      <text>Flopndrop text A</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Drop me [[1]], drop me [[2]], drop me floppin' [[3]]!</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>here</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>there</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>everywhere</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 33  -->
+  <question type="description">
+    <name>
+      <text>Description</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Floppity flop, flop it up!</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 3  -->
+  <question type="essay">
+    <name>
+      <text>Essay A</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Write an essay, you flop!</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text><![CDATA[<p>Flopem!</p>]]></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text><![CDATA[<p>Begin your floppy essay with the description of your floppiness, floppy you!</p>]]></text>
+    </responsetemplate>
+  </question>
+
+<!-- question: 30  -->
+  <question type="gapselect">
+    <name>
+      <text>Missword B</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>I'm missing [[1]], I'm missing [[2]], flops and flopsies [[3]]!</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <selectoption>
+      <text>here</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>there</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>everywhere</text>
+      <group>1</group>
+    </selectoption>
+  </question>
+
+<!-- question: 22  -->
+  <question type="matching">
+    <name>
+      <text>Matching B</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Matchflop!</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Flopsta</p>]]></text>
+      <answer>
+        <text>Flopper</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Floppy</p>]]></text>
+      <answer>
+        <text>Floppier</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Floppingdale</p>]]></text>
+      <answer>
+        <text>Floppingdeen</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 13  -->
+  <question type="cloze">
+    <name>
+      <text>Cloze A</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span>Flop together flopcity and flopstate!</span></p>
+<p><span>Paris: {1:MULTICHOICE:=France#OK~Germany#Wrong}</span></p>
+<p><span>Prague: {1:MULTICHOICE:Ukraine#Wrong~%100%Czechia#OK}</span></p>
+<p><span>The capital of France is {1:SHORTANSWER:%100%Paris#Congratulations! ~%50%Marseille#No, that is the second largest city in France (after Paris).~*#Wrong answer. The capital of France is Paris, of course.}.</span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 1  -->
+  <question type="multichoice">
+    <name>
+      <text>gaveup bez pokusu o odpověď</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Nezvolit nic</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Vaše odpověď je správná.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Vaše odpověď je částečně správná.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Vaše odpověď je chybná.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1-ok</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2-bad</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3-bad</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>4-bad</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 27  -->
+  <question type="numerical">
+    <name>
+      <text>Numeriflop A</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Flop two three four</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <answer fraction="25" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 31  -->
+  <question type="truefalse">
+    <name>
+      <text>Trueflop A</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>True or flop?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,5 @@
+question.type,question.id,name.text,questiontext.text,generalfeedback.text,defaultgrade,penalty,hidden,answer.text,answer.feedback.text,fraction
+truefalse,1,Question A,Question A text,General feedback A,4,0,0,true,"Yes, it’s true",100
+truefalse,1,Question A,Question A text,General feedback A,4,0,0,false,"Nope, it’s true",0
+truefalse,2,Question B,Question B text,General feedback B,1,0,0,false,"Yes, it’s false",100
+truefalse,2,Question B,Question B text,General feedback B,1,0,0,true,"Nope, it’s false",0

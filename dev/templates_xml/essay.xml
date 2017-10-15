@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="essay">
+    <name>
+      <text>Essay A</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;Write an essay, you flop!&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text>&lt;p&gt;Flopem!&lt;/p&gt;</text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text>&lt;p&gt;Begin your floppy essay with the description of your floppiness, floppy you!&lt;/p&gt;</text>
+    </responsetemplate>
+  </question>
+</quiz>
